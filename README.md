@@ -3,6 +3,8 @@ DSONModel
 
 DSON (Doge Serialized Object Notation) Model for UI5
 
+Quick video: http://youtu.be/jjRc4AehSoA
+
 Here's what I did:
 
  * Enjoyed reading about [Doge Serialized Object Notation](http://dogeon.org/)
