@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+
+    <title>many data, wow</title>
+
+    <script id="sap-ui-bootstrap"
+      type="text/javascript"
+      src="/sapui5/latest/resources/sap-ui-core.js"
+      data-sap-ui-theme="sap_bluecrystal"
+      data-sap-ui-xx-bindingSyntax="complex"
+      data-sap-ui-resourceroots='{"local": "./"}'>
+    </script>
+
+    <script src="bundle.js"></script>
+
+    <script>
+
+        window._grab = sap.ui.getCore().byId;
+        new sap.ui.core.ComponentContainer({
+          name : "local"
+        }).placeAt("content")
+
+    </script>
+
+  </head>
+
+  <body class="sapUiBody" id="content" />
+</html>

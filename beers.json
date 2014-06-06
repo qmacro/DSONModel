@@ -1,0 +1,7 @@
+{
+  "beers" : [
+    { "name" : "Ringmaster", "brewery" : "Magic Rock", "location" : "Huddersfield" },
+    { "name" : "IPA", "brewery" : "Atom", "location" : "Hull" },
+    { "name" : "Stout", "brewery" : "Blackjack", "location" : "Manchester" }
+  ]
+}

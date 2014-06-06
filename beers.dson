@@ -1,0 +1,19 @@
+such "beers" is
+  so
+    such
+      "name" is "Ringmaster" next
+      "brewery" is "Magic Rock" next
+      "location" is "Huddersfield"
+    wow next
+    such
+      "name" is "IPA" next
+      "brewery" is "Atom" next
+      "location" is "Hull"
+    wow next
+    such
+      "name" is "Stout" next
+      "brewery" is "Blackjack" next
+      "location" is "Manchester"
+    wow
+  many
+wow

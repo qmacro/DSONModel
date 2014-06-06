@@ -1,0 +1,16 @@
+<mvc:View
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m">
+  <ObjectHeader
+    title="{/title}"
+    iconDensityAware="false"
+    icon="http://dogeon.org/doge.gif" />
+  <List
+    items="{/beers}">
+    <items>
+      <StandardListItem
+        title="{name}"
+        description="{brewery}, {location}" />
+    </items>
+  </List>
+</mvc:View>
