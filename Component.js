@@ -15,7 +15,7 @@ sap.ui.core.UIComponent.extend("local.Component", {
     sap.ui.core.UIComponent.prototype.init.apply(this, arguments);
     var wowModel = new local.DSONModel('beers.dson');
     wowModel.attachEventOnce('requestCompleted', function() {
-      console.log("REQUEST COMPLETED");
+      this.setDSON('such "title" is "Dogeon FTW!" wow', true);
     });
     this.setModel(wowModel);
 
