@@ -1,7 +1,7 @@
-jQuery.sap.declare("local.DogeonModel");
+jQuery.sap.declare("local.DSONModel");
 jQuery.sap.require("sap.ui.model.json.JSONModel");
 
-sap.ui.model.json.JSONModel.extend("local.DogeonModel", {
+sap.ui.model.json.JSONModel.extend("local.DSONModel", {
 
   loadData : function(sURL, oParameters, bAsync, sType, bMerge, bCache, mHeaders){
 		var that = this;

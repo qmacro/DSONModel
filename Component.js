@@ -1,4 +1,4 @@
-jQuery.sap.require("local.DogeonModel");
+jQuery.sap.require("local.DSONModel");
 jQuery.sap.declare("local.Component");
 
 sap.ui.core.UIComponent.extend("local.Component", {
@@ -13,7 +13,10 @@ sap.ui.core.UIComponent.extend("local.Component", {
   init : function() {
 
     sap.ui.core.UIComponent.prototype.init.apply(this, arguments);
-    var wowModel = new local.DogeonModel('beers.dson');
+    var wowModel = new local.DSONModel('beers.dson');
+    wowModel.attachEventOnce('requestCompleted', function() {
+      console.log("REQUEST COMPLETED");
+    });
     this.setModel(wowModel);
 
   }
